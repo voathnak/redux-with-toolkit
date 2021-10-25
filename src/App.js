@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import CountingNumber from "./Components/CountingNumber";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <CountingNumber />
       </header>
     </div>
   );
